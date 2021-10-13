@@ -8,7 +8,7 @@ const getUserToken = () => {
 
 // configure axios instance
 const instance = axios.create({
-  baseURL: `http://localhost:3000/api/`,
+  baseURL: `https://kibbles-ritz.herokuapp.com/api/`,
 })
 
 instance.defaults.headers.post['Content-Type'] = 'application/json'
